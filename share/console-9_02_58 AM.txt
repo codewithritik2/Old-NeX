@@ -1,0 +1,196 @@
+      at new Promise (<anonymous>)
+      at __awaiter (/home/container/node_modules/kazagumo/dist/Kazagumo.js:4:12)
+      at Kazagumo.getLeastUsedNode (/home/container/node_modules/kazagumo/dist/Kazagumo.js:161:16)
+      at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:106:29)
+      at Generator.next (<anonymous>)
+      at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+      at new Promise (<anonymous>) {
+    code: 2
+  }
+}
+13-06-2024 11:29:23 -   Neptune™          =>   Warning  - unhandledRejection Error: No nodes are online,[object Promise]
+KazagumoError: No nodes are online
+    at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:165:23)
+    at Generator.next (<anonymous>)
+    at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/container/node_modules/kazagumo/dist/Kazagumo.js:4:12)
+    at Kazagumo.getLeastUsedNode (/home/container/node_modules/kazagumo/dist/Kazagumo.js:161:16)
+    at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:66:39)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/container/node_modules/kazagumo/dist/Kazagumo.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 2
+} Promise {
+  <rejected> KazagumoError: No nodes are online
+      at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:165:23)
+      at Generator.next (<anonymous>)
+      at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (/home/container/node_modules/kazagumo/dist/Kazagumo.js:4:12)
+      at Kazagumo.getLeastUsedNode (/home/container/node_modules/kazagumo/dist/Kazagumo.js:161:16)
+      at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:66:39)
+      at Generator.next (<anonymous>)
+      at fulfilled (/home/container/node_modules/kazagumo/dist/Kazagumo.js:5:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 2
+  }
+}
+13-06-2024 11:29:40 -   Neptune™          =>   Warning  - unhandledRejection Error: No nodes are online,[object Promise]
+KazagumoError: No nodes are online
+    at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:165:23)
+    at Generator.next (<anonymous>)
+    at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/container/node_modules/kazagumo/dist/Kazagumo.js:4:12)
+    at Kazagumo.getLeastUsedNode (/home/container/node_modules/kazagumo/dist/Kazagumo.js:161:16)
+    at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:106:29)
+    at Generator.next (<anonymous>)
+    at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+    at new Promise (<anonymous>) {
+  code: 2
+} Promise {
+  <rejected> KazagumoError: No nodes are online
+      at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:165:23)
+      at Generator.next (<anonymous>)
+      at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (/home/container/node_modules/kazagumo/dist/Kazagumo.js:4:12)
+      at Kazagumo.getLeastUsedNode (/home/container/node_modules/kazagumo/dist/Kazagumo.js:161:16)
+      at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:106:29)
+      at Generator.next (<anonymous>)
+      at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+      at new Promise (<anonymous>) {
+    code: 2
+  }
+}
+13-06-2024 11:29:40 -   Neptune™          =>   Warning  - unhandledRejection Error: No nodes are online,[object Promise]
+KazagumoError: No nodes are online
+    at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:165:23)
+    at Generator.next (<anonymous>)
+    at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/container/node_modules/kazagumo/dist/Kazagumo.js:4:12)
+    at Kazagumo.getLeastUsedNode (/home/container/node_modules/kazagumo/dist/Kazagumo.js:161:16)
+    at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:66:39)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/container/node_modules/kazagumo/dist/Kazagumo.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 2
+} Promise {
+  <rejected> KazagumoError: No nodes are online
+      at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:165:23)
+      at Generator.next (<anonymous>)
+      at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (/home/container/node_modules/kazagumo/dist/Kazagumo.js:4:12)
+      at Kazagumo.getLeastUsedNode (/home/container/node_modules/kazagumo/dist/Kazagumo.js:161:16)
+      at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:66:39)
+      at Generator.next (<anonymous>)
+      at fulfilled (/home/container/node_modules/kazagumo/dist/Kazagumo.js:5:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 2
+  }
+}
+13-06-2024 11:29:53 -   Neptune™          =>   Warning  - unhandledRejection Error: No nodes are online,[object Promise]
+KazagumoError: No nodes are online
+    at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:165:23)
+    at Generator.next (<anonymous>)
+    at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/container/node_modules/kazagumo/dist/Kazagumo.js:4:12)
+    at Kazagumo.getLeastUsedNode (/home/container/node_modules/kazagumo/dist/Kazagumo.js:161:16)
+    at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:106:29)
+    at Generator.next (<anonymous>)
+    at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+    at new Promise (<anonymous>) {
+  code: 2
+} Promise {
+  <rejected> KazagumoError: No nodes are online
+      at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:165:23)
+      at Generator.next (<anonymous>)
+      at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (/home/container/node_modules/kazagumo/dist/Kazagumo.js:4:12)
+      at Kazagumo.getLeastUsedNode (/home/container/node_modules/kazagumo/dist/Kazagumo.js:161:16)
+      at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:106:29)
+      at Generator.next (<anonymous>)
+      at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+      at new Promise (<anonymous>) {
+    code: 2
+  }
+}
+13-06-2024 11:29:53 -   Neptune™          =>   Warning  - unhandledRejection Error: No nodes are online,[object Promise]
+KazagumoError: No nodes are online
+    at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:165:23)
+    at Generator.next (<anonymous>)
+    at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/container/node_modules/kazagumo/dist/Kazagumo.js:4:12)
+    at Kazagumo.getLeastUsedNode (/home/container/node_modules/kazagumo/dist/Kazagumo.js:161:16)
+    at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:66:39)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/container/node_modules/kazagumo/dist/Kazagumo.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 2
+} Promise {
+  <rejected> KazagumoError: No nodes are online
+      at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:165:23)
+      at Generator.next (<anonymous>)
+      at /home/container/node_modules/kazagumo/dist/Kazagumo.js:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (/home/container/node_modules/kazagumo/dist/Kazagumo.js:4:12)
+      at Kazagumo.getLeastUsedNode (/home/container/node_modules/kazagumo/dist/Kazagumo.js:161:16)
+      at Kazagumo.<anonymous> (/home/container/node_modules/kazagumo/dist/Kazagumo.js:66:39)
+      at Generator.next (<anonymous>)
+      at fulfilled (/home/container/node_modules/kazagumo/dist/Kazagumo.js:5:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 2
+  }
+}
+[Pterodactyl Daemon]: Checking server disk space usage, this could take a few seconds...
+[Pterodactyl Daemon]: Updating process configuration files...
+[Pterodactyl Daemon]: Ensuring file permissions are set correctly, this could take a few seconds...
+[Pterodactyl Daemon]: Pulling Docker container image, this could take a few minutes to complete...
+[Pterodactyl Daemon]: Finished pulling Docker container image
+v20.14.0
+:/home/container$ if [[ -d .git ]] && [[ ${AUTO_UPDATE} == "1" ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then /usr/local/bin/npm install ${NODE_PACKAGES}; fi; if [[ ! -z ${UNNODE_PACKAGES} ]]; then /usr/local/bin/npm uninstall ${UNNODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then /usr/local/bin/npm install; fi; if [[ "${MAIN_FILE}" == "*.js" ]]; then /usr/local/bin/node "/home/container/${MAIN_FILE}" ${NODE_ARGS}; else /usr/local/bin/ts-node --esm "/home/container/${MAIN_FILE}" ${NODE_ARGS}; fi
+\|/-\|/-\|/-\|/-\|/-\|/-\|
+up to date, audited 553 packages in 5s
+/
+/83 packages are looking for funding
+/  run `npm fund` for details
+/
+14 vulnerabilities (6 low, 8 moderate)
+To address issues that do not require attention, run:
+  npm audit fix
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+Run `npm audit` for details.
+/\|/-\|/
+up to date, audited 553 packages in 2s
+/
+/83 packages are looking for funding
+/  run `npm fund` for details
+/
+14 vulnerabilities (6 low, 8 moderate)
+To address issues that do not require attention, run:
+  npm audit fix
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+Run `npm audit` for details.
+/13-06-2024 11:32:41 -   Process           =>   Cluster  - [CM => Manager] [Spawning Clusters]
+    ClusterCount: 1
+    ShardCount: 2
+    ShardList: 0,1
+13-06-2024 11:32:41 -   Process           =>   Cluster  - [CM => Manager] [CREATE] Created Cluster 0
+13-06-2024 11:32:48 -   Process           =>   Ready    - Loaded Anti-Crash Error Handler (UR, UE)
+(node:44) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:44) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+13-06-2024 11:32:55 -   Money Heist™          =>   Ready    - Client logged in !!!
+13-06-2024 11:32:56 -   Process           =>   Cluster  - [CM => Cluster 0] Ready
+13-06-2024 11:32:56 -   Money Heist™         =>   Event    - Loaded  Client: 5  Node: 4  Player: 6  Custom: 8 
+13-06-2024 11:32:56 -   Money Heist™         =>   Command  - Loaded  Message: 85 
+13-06-2024 11:32:56 -   Money Heist™         =>   Ready    - Ready for 113 Servers | 309918 Users
+13-06-2024 11:32:57 -   Money Heist™          =>   Lavalink - Lavalink "Your Cassette " connection established
