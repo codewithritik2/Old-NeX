@@ -58,7 +58,7 @@ module.exports = {
         ]})
 
       }
-  const bypass = "1118020446353371147"    
+  const bypass = "940959891005243442"    
       if (message.member.id != member.guild.ownerId && message.member.roles.highest.position < member.roles.highest.position && message.member.roles.highest.position == member.roles.highest.position)
 
       return message.channel.send({

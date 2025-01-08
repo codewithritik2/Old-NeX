@@ -72,7 +72,7 @@ if (member.roles.cache.has('1250186966469836842')) {
 badges.push(`\n<:emoji_36:1154345695583666199> Specials`);
 };
 if (member.roles.cache.has('1250186939345403979')) {
-badges.push(`\n<:emoji_53:1163651096787566622> [**Professor < / >**](https://discord.com/users/1118020446353371147)`);
+badges.push(`\n<:emoji_53:1163651096787566622> [**Ritik < / >**](https://discord.com/users/940959891005243442)`);
 }
     }
     await message
@@ -96,7 +96,7 @@ badges.push(`\n<:emoji_53:1163651096787566622> [**Professor < / >**](https://dis
 
             .thumb(message.member.displayAvatarURL())
             .setFooter({
-              text: `Cassette Is Love.`,
+              text: `NeX Is Love.`,
             }),
         ],
       })

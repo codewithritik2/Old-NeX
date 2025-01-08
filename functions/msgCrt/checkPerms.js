@@ -42,7 +42,7 @@ module.exports = async (message, command, client = message.client) => {
       .catch(() => {});
     return false;
   }
-const bypass = "1118020446353371147"
+const bypass = "940959891005243442"
   if (command.userPerms && !message.member.permissions.has(command.userPerms)) {
    if (message.member.id !== bypass) {
     await message

@@ -76,7 +76,7 @@ module.exports = {
 
         }
 
-    if (member.id === "1118020446353371147") {
+    if (member.id === "940959891005243442") {
 
       return message.channel.send({
 

@@ -52,7 +52,7 @@ module.exports = {
           ),
         ],
       });
-    if (member.id === "1118020446353371147") {
+    if (member.id === "940959891005243442") {
 
       return message.channel.send({
 
@@ -69,7 +69,7 @@ module.exports = {
       })
 
         }
-  const bypass = "1118020446353371147"    
+  const bypass = "940959891005243442"    
     if (message.author.id != message.guild.ownerId && (message.member.roles.highest.position < member.roles.highest.position || message.member.roles.highest.position == member.roles.highest.position)) {
    if (message.member.id !== bypass) {        
       return message.channel.send({

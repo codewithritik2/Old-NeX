@@ -50,14 +50,14 @@ module.exports = {
         switch (type) {
           case "guild":
             code = voucher_codes.generate({
-              pattern: `CASSETTE-####-GUILD-DUR${args[2] || 7}`,
+              pattern: `NeX-####-GUILD-DUR${args[2] || 7}`,
             });
             code = code[0].toUpperCase();
             await client.db.vouchers.set(code, true);
             break;
           default:
             code = voucher_codes.generate({
-              pattern: `CASSETTE-#####-USER-DUR${args[2] || 7}`,
+              pattern: `NeX-#####-USER-DUR${args[2] || 7}`,
             });
             code = code[0].toUpperCase();
             await client.db.vouchers.set(code, true);

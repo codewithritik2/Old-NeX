@@ -67,7 +67,7 @@ module.exports = {
     const total = await getValues();
 
     m.edit(
-      `**Cassette v4.3 **\n` +
+      `**NeX v4.3 **\n` +
         `│\n` +
         `│ **Process Information:**\n` +
         `│ㅤ ├ PID \`${process.pid}\`\n` +

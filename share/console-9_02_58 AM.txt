@@ -193,4 +193,4 @@ Run `npm audit` for details.
 13-06-2024 11:32:56 -   Money Heist™         =>   Event    - Loaded  Client: 5  Node: 4  Player: 6  Custom: 8 
 13-06-2024 11:32:56 -   Money Heist™         =>   Command  - Loaded  Message: 85 
 13-06-2024 11:32:56 -   Money Heist™         =>   Ready    - Ready for 113 Servers | 309918 Users
-13-06-2024 11:32:57 -   Money Heist™          =>   Lavalink - Lavalink "Your Cassette " connection established
+13-06-2024 11:32:57 -   Money Heist™          =>   Lavalink - Lavalink "Your NeX " connection established

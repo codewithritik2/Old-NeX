@@ -47,7 +47,7 @@ module.exports = {
       })
       .setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
       .setFooter({
-        text: "Professor is Love 💕",
+        text: "Ritik is Love 💕",
         iconURL: message.author.displayAvatarURL({ dynamic: true })
       });
 

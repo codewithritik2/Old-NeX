@@ -38,7 +38,7 @@ module.exports = {
       .reply({
         embeds: [
           new client.embed().desc(
-            `<:Cassette_status:1256093224339111960> **| Choose autoplay-mode :**`,
+            `<:NeX_status:1256093224339111960> **| Choose autoplay-mode :**`,
           ),
         ],
         components: [row],

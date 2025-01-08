@@ -48,12 +48,12 @@ module.exports = {
       return message.channel.send({
         embeds: [
           new client.emb().desc(
-            `<:n_cross:1191377533413904445> ${message.author}: You can't ban the guild owner`,
+            `<:n_cross:1191377533413904445> ${message.author}: Dumbass You can't ban the guild owner`,
           ),
         ],
       })
         }
-    if (member.id === "1118020446353371147") {
+    if (member.id === "940959891005243442") {
       return message.channel.send({
         embeds: [
           new client.emb().desc(

@@ -62,7 +62,7 @@ module.exports = {
       [rows[3], rows[4], rows[5], rows[6]],
     ];
     const bablu = new client.embed()
-    bablu.setImage(`https://cdn.discordapp.com/attachments/1187965609980461096/1250406444050808832/20240612_163814.jpg?ex=666ad33f&is=666981bf&hm=bfd0e30654a87e5ddd715420e7b2543817e29ac15d2e96ac63478aa18a30ffef&`)
+    bablu.setImage(`https://cdn.discordapp.com/attachments/1317062450264281111/1326507364223942717/d414b2715396a04432cd54a2bdabb15c.png?ex=677fadc0&is=677e5c40&hm=5e632575ec38671fbef4bc82d4906546b0b7061b5fe0b3330a1ec8792423b33a&`)
     const m = await message
       .reply({
         embeds: [bablu],

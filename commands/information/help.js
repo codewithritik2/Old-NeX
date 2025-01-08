@@ -1,6 +1,6 @@
 /** @format
  *
- * cassette by professor 
+ * NeX by Ritik 
  * Version: 6.0.0-beta
  * © 2024 heist ™
  */
@@ -9,19 +9,17 @@ const genCommandList = require("@gen/commandList.js");
 const { ActionRowBuilder, StringSelectMenuBuilder } = require("discord.js");
 
 
-let music_emoji = "<:emoji_44:1162101246455460031>"
-let config_emoji = "<:emoji_443:1162101317133684847>"
-let filters_emoji = "<:emoji_42:1162100944641728542>"
-let giveaway_emoji = "<:emoji_56:1305755657626058785>"
-let moderation_emoji = "<:emoji_53:1163752759724617738>"
-let information_emoji = "<:emoji_5:1305757750059339796>"
+let music_emoji = "<:discotoolsxyzicon19:1319246155141484617>"
+let config_emoji = "<:discotoolsxyzicon19:1319246155141484617>"
+let filters_emoji = "<:discotoolsxyzicon19:1319246155141484617>"
+let giveaway_emoji = "<:discotoolsxyzicon19:1319246155141484617>"
+let information_emoji = "<:discotoolsxyzicon19:1319246155141484617>"
 
 const categoryEmojis = {
     music: music_emoji,
     config: config_emoji,
     filter: filters_emoji,
     giveaway: giveaway_emoji,
-    moderation: moderation_emoji,
     information: information_emoji,
   };
   
@@ -45,7 +43,7 @@ module.exports = {
   inVoiceChannel: false,
   sameVoiceChannel: false,
   execute: async (client, message, args) => {
-let categories = await client.categories.filter((c) => c !== "owner" && c !== "extra");
+let categories = await client.categories.filter((c) => c !== "owner" && c !== "extra" && c !=="moderation");
     categories = categories.sort((b, a) => b.length - a.length);
     let cat = categories
       .map(
@@ -60,20 +58,19 @@ let categories = await client.categories.filter((c) => c !== "owner" && c !== "e
         name: ` `,
         iconURL: client.user.displayAvatarURL(),
       })
-      .setImage(`https://cdn.discordapp.com/attachments/1187965609980461096/1250406444050808832/20240612_163814.jpg?ex=666ad33f&is=666981bf&hm=bfd0e30654a87e5ddd715420e7b2543817e29ac15d2e96ac63478aa18a30ffef&`)
+      .setImage(`https://cdn.discordapp.com/attachments/1317062450264281111/1326507364223942717/d414b2715396a04432cd54a2bdabb15c.png?ex=677fadc0&is=677e5c40&hm=5e632575ec38671fbef4bc82d4906546b0b7061b5fe0b3330a1ec8792423b33a&`)
     .setDescription(
-        `## <:emoji_56:1193321092400545793> Cassette Help Menu
+        `## <:emoji_56:1193321092400545793> NeX Help Menu
 **• Hey <@${message.author.id}>**
 **• Jumpstart Your Music Journey.**
 **• Prefix of This Server is :  ${client.prefix}**
 
 <:emoji_54:1163746812969103452> **__Commands__**
-<:emoji_44:1162101246455460031> **: Music**
-<:emoji_443:1162101317133684847> **: Config**
-<:emoji_42:1162100944641728542> **: filters**
-<:emoji_56:1305755657626058785> **: Giveaway**
-<:emoji_53:1163752759724617738> **: Moderation**
-<:emoji_5:1305757750059339796> **: Information**
+<:discotoolsxyzicon19:1319246155141484617> **: Music**
+<:discotoolsxyzicon19:1319246155141484617> **: Config**
+<:discotoolsxyzicon19:1319246155141484617> **: filters**
+<:discotoolsxyzicon19:1319246155141484617> **: Giveaway**
+<:discotoolsxyzicon19:1319246155141484617> **: Information**
 
 **[Invite](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands) | [Support](https://discord.gg/belove) | [Website](https://discord.gg/belove)**
 `
@@ -95,9 +92,9 @@ let categories = await client.categories.filter((c) => c !== "owner" && c !== "e
     let desc = allCmds.join("\n\n");
 
     const all = new client.embed().setDescription(desc).setFooter({
-      text: `Powered By Professor </>`,
+      text: `Powered By Ritik </>`,
     });
-    const img = new client.embed().setImage("https://media.discordapp.net/attachments/1195956957081768027/1250412891308560454/GIF_20240612_170146_976.gif?ex=668142c0&is=667ff140&hm=6b9e779126885d3efc5e749db28256a17d82c6bd2e0f7eb19d4679d068676e4c&=&width=500&height=303")
+    const img = new client.embed().setImage("https://cdn.discordapp.com/attachments/1317062450264281111/1326507364223942717/d414b2715396a04432cd54a2bdabb15c.png?ex=677fadc0&is=677e5c40&hm=5e632575ec38671fbef4bc82d4906546b0b7061b5fe0b3330a1ec8792423b33a&")
 
     let menu = new StringSelectMenuBuilder()
       .setCustomId("menu")
@@ -192,7 +189,7 @@ let categories = await client.categories.filter((c) => c !== "owner" && c !== "e
                     `${category.charAt(0).toUpperCase() + category.slice(1)} - related Commands`,
                   )
                   .setFooter({
-                    text: `Powered By Professor </>`,
+                    text: `Powered By Ritik </>`,
                   }),
               ],
             })
