@@ -1,31 +1,56 @@
 # @format
 
 BOT:
-  OWNERS: ["940959891005243442",]
-  ADMINS: ["940959891005243442", "940959891005243442", "940959891005243442"]
-  STAFFS: ["940959891005243442"]
+  OWNERS: ["1212431696381612132","940959891005243442"]
+  ADMINS: ["1212431696381612132","940959891005243442"]
+
+
 
 LINKS:
   SUPPORT: "https://discord.gg/nexhq"
-  MONGO_URI: "mongodb+srv://agrawalritik:Agrawalritik@cluster0.282ny.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/"
+  MONGO_URI: ""
+  VOTING: ""
 
 SPOTIFY:
-  ID: "e2f5281295dc4bd1bbf3db2f916ae07e"
-  SECRET: "5f0a86c006ea428594a14df3598328ca"
+  ID: ""
+  SECRET: ""
 
-FUEGO:
+MANAGER:
+  OWNERS: ["940959891005243442"]
+  TOKEN: ""
+
+NEX:
   PREFIX: "."
   EMOJIS: "black"
-  COLOR: #ADD8E6"
-  SHARDS: 2
-  PER_CLUSTER: 2
-  TOKEN: "MTIyNTMzMDU4NzcxNjI5MjYxOA.GmIrXX.1ALPsKIHSl0BBVzmLNdMmH2WHGiMY6nX4b03z0"
+  COLOR: "FFC0CB"
+  SHARDS: auto
+  PER_CLUSTER: 1
+  TOKEN: ""
+  VOTEURI: "https://top.gg/bot/1272058924547178581/vote"
   TOPGGAUTH: ""
-  VOTEURI: ""
+
+# JINGLE:
+#   PREFIX: "?"
+#   EMOJIS: "black"
+#   COLOR: "#555555"
+#   SHARDS: "auto"
+#   PER_CLUSTER: 2
+#   TOKEN: "MTE5MTk0NzUzMDIyNTg0ODQwMA.GN225m.gFvFBNCULOZENl46RxJgNukn6-THCXF2xdXuGU" #"MTE5MTk0NzUzMDIyNTg0ODQwMA.GWI-50.lTnUrFEbkfNpjXp7fHrDutAxejX6f2GqxtqaAM"
+#   TOPGGAUTH: ""
+#   VOTEURI: ""
+  
+# KYOKO:
+#   PREFIX: "&"
+#   EMOJIS: "black"
+#   COLOR: "#548fc1"
+#   SHARDS: "auto"
+#   PER_CLUSTER: 2
+#   TOKEN: "MTI1Mjk1ODQ4NDU4OTQ0OTI1Nw.GY0298.Znkpp5rvvdO07PTdVpWXj5xQZ2VchR0f2DnnBo"
+#   TOPGGAUTH: ""
 
 WEBHOOKS:
-  ERROR: "https://discord.com/api/webhooks/1154695840217190400/CqqYS2i2Tj93giM0Hti7ZpaRMv66b_o3YmCcH4j0LQorGvD47LXKKcMVujqtnJfoR1kg"
-  STATIC: "https://discord.com/api/webhooks/1306086554464288849/FQz-AEceGruHO7IqYJbUzeLjckzM4jJkifMpVGIYAw7xT-y1aSS3wXxkTi-tN8rNzYY7"
-  PLAYER: "https://discord.com/api/webhooks/1306086671695220766/gL4ZzcScTZ8sGGLE9PWVNpoD1s31SQjDd-Kuw--KnjxQGPg0wBIAeYsGNqfdCdgzDhKC"
-  SERVER: "https://discord.com/api/webhooks/1306086157658099794/JqOvIt5d8XIfTCoLL_wpO2l3ROodwklmz98CXDluvg5OBWycjsD-1LJLEZEPn5kPuaYz"
-  COMMAND: "https://discord.com/api/webhooks/1306086302361587803/-T4BSGr9xXa5zOeIzdiG2Oly7qF-hhwrlbHvkyi_b88MrjtFkID1pFb7_wFadCv9U8s9"
+  ERROR: ""
+  STATIC: ""
+  PLAYER: ""
+  SERVER: ""
+  COMMAND: ""
